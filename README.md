@@ -1,3 +1,3 @@
 ## Barbershop
 
-Esse projeto foi desenvolvido como parte das atividades realizadas na formação Front-end da Alura.
+This project was developed as part of the activities carried out in Alura's HTML and CSS training.
