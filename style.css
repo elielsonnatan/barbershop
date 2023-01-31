@@ -1,14 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+.page-header {
+  background: #cccccc;
+  padding: 20px 0;
+}
+
+.page-header .box {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.page-header nav {
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.page-header nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.page-header nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.page-header nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
 #banner {
   width: 100%;
 }
 
-.main-content {
+.section-about {
   background: #cccccc;
   padding: 20px;
+  margin-bottom: 4px;
 }
 
-.main-title {
-  padding-left: 20px;
+.section-about h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-about p:nth-child(-n + 3) {
+  margin-bottom: 10px;
 }
 
 .text-align-center {
@@ -21,28 +71,61 @@ p {
 
 #mission {
   font-size: 20px;
+  font-style: italic;
 }
 
-em strong {
-    color: #FF0000;
+#mission span {
+  color: #ff0000;
+}
+
+.benefits-container {
+  width: 100%;
+}
+
+.benefits {
+  background: #ffffff;
+  padding: 20px 0 0;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 2.3%;
+}
+
+.benefits h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .benefit-items {
   font-style: italic;
 }
 
-.benefits {
-  background: #FFFFFF;
-  padding: 20px;
-}
-
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+.benefits ul {
+  list-style-position: inside;
 }
 
 .benefits-image {
   width: 50%;
+  display: inline-block;
+}
+
+.benefits-image img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  background: url("../../assets/products-page/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+.text-bold {
+  font-weight: bold;
 }
