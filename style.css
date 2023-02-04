@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 0; */
+  border: 0;
   font-size: 100%;
   font: inherit;
+  text-decoration: none;
 }
 
 .page-header {
@@ -106,7 +107,7 @@
 }
 
 .benefits-image {
-  width: 50%;
+  width: 49%;
   display: inline-block;
 }
 

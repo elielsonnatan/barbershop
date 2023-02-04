@@ -50,3 +50,7 @@
 .products p:nth-child(2n + 1) {
   font-size: 18px;
 }
+
+.products img {
+  width: 100%;
+}
