@@ -51,7 +51,7 @@ body {
   width: 100%;
 }
 
-.section-width-default {
+.section-width-default, .map-content {
   width: 940px;
   margin: 0 auto;
 }
@@ -128,6 +128,13 @@ body {
 
 .benefits-image {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+.benefits-image:hover {
+  opacity: 0.3;
 }
 
 .video {
@@ -149,4 +156,26 @@ footer {
 
 .text-bold {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-header .box, .home-about-section, .benefits-content, .map-content, .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .page-header nav {
+    position: static;
+  }
+
+  .benefits-list, .benefits-image {
+    width: 100%;
+  }
+
+  .padding-1 {
+    padding: 0 1em;
+  }
 }
