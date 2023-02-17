@@ -1,12 +1,29 @@
-form {
+.contact-form {
   margin: 40px 0;
 }
 
-form label,
-form legend {
+.contact-form label,
+.contact-form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+
+.contact-form select {
+  width: 20%;
+  padding: 10px 8px;
+  background: #ffffff;
+}
+
+.contact-form fieldset {
+  margin: 0 0 20px;
 }
 
 .input-default {
@@ -16,13 +33,10 @@ form legend {
   width: 50%;
 }
 
-.checkbox {
-  margin: 20px 0;
-}
-
 .send {
   width: 40%;
   padding: 15px 0;
+  margin: 10px 0 0 0;
   background: orange;
   color: white;
   font-weight: bold;
@@ -34,21 +48,25 @@ form legend {
 
 .send:hover {
   background: darkorange;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
-table {
-  margin: 20px 0 40px;
+.opening-hours table {
+  margin: 10px 0 40px;
 }
 
-thead {
+.opening-hours thead {
   background: #555555;
   color: white;
   font-weight: bold;
 }
 
-td,
-th {
+.opening-hours td,
+.opening-hours th {
   border: 1px solid #000000;
   padding: 8px 15px;
+}
+
+.opening-hours h3 {
+  font-size: 20px;
 }
